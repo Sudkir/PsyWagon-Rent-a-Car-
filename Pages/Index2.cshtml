@@ -1,0 +1,32 @@
+﻿@{
+
+    ViewData["Title"] = "Авторизация";
+}
+<h1>@ViewData["Title"]</h1>
+    <div>
+        <h2>@ViewData["UserName"]</h2>
+    </div>
+<div>
+           <form method="post" >
+        <fieldset>
+          <legend>Введите данные</legend>
+          
+          <div>
+            <label for="Login">Логин:</label>
+            <input type="text" name="Login" value="" />
+              
+          </div>
+          <div>
+            <label for="Pass">Пароль:</label>
+            <input type="password" name="Pass" value="" />
+          </div>
+          <div>
+            <label>&nbsp;</label>
+            <input type="submit" value="Войти" class="submit" />
+          </div>
+        </fieldset>
+      </form>
+          </div>
+
+
+<p>Use this page to detail your site's privacy policy.</p>
