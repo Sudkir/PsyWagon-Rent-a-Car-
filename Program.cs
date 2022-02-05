@@ -12,6 +12,8 @@ namespace PsyWagonLestes
     //EntityFramework\Add-Migration и EntityFrameworkCore\Add-Migration Создание миграции
     //Update-Database обноваление БД
     //Get-Migration получить список
+
+    //https://html5book.ru/tablica-cen-s-pereklyuchatelem/ CSS HTML
     public class Program
     {
         public static void Main(string[] args)
