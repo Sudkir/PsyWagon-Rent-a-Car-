@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\PsyWagonLestes\\PsyWagonLestes.csproj": {}
+    "E:\\проекты\\PsyWagon-main\\PsyWagonLestes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\PsyWagonLestes\\PsyWagonLestes.csproj": {
+    "E:\\проекты\\PsyWagon-main\\PsyWagonLestes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\PsyWagonLestes\\PsyWagonLestes.csproj",
+        "projectUniqueName": "E:\\проекты\\PsyWagon-main\\PsyWagonLestes.csproj",
         "projectName": "PsyWagonLestes",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\PsyWagonLestes\\PsyWagonLestes.csproj",
+        "projectPath": "E:\\проекты\\PsyWagon-main\\PsyWagonLestes.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\PsyWagonLestes\\obj\\",
+        "outputPath": "E:\\проекты\\PsyWagon-main\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,9 +43,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "ElectronNET.API": {
+              "target": "Package",
+              "version": "[13.5.1, )"
+            },
             "EntityFramework": {
               "target": "Package",
               "version": "[6.4.4, )"
+            },
+            "Microsoft.AspNetCore.NodeServices": {
+              "target": "Package",
+              "version": "[3.1.22, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -66,6 +72,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[5.0.2, )"
+            },
+            "Node.js": {
+              "target": "Package",
+              "version": "[5.3.0, )"
             }
           },
           "imports": [
@@ -86,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
