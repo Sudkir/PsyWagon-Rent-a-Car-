@@ -9,8 +9,10 @@ namespace RazorPagesMovie.Models
         public string Name { get; set; }
 
         public string Brand { get; set; }
+
         [DataType(DataType.Date)]
         public DateTime ReleaseDate { get; set; }
+
         public decimal Price { get; set; }
     }
 }
