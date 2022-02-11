@@ -1,19 +1,14 @@
-using ElectronNET.API;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace PsyWagonLestes
 {
-    //cmd
-    //dotnet tool install --global ElectronNET.CLI --version 13.5.1
-    //CMD NutGet
-    // dotnet tool install --local ElectronNET.CLI --version 13.5.1
-    //dotnet tool update ElectronNET.CLI -g
-    //electronize init
-    //electronize start
-
-    //Install-Package ElectronNET.API
-    //Import-Module EntityFramework
     //EntityFramework\Add-Migration и EntityFrameworkCore\Add-Migration Создание миграции
     //Update-Database обноваление БД
     //Get-Migration получить список
@@ -30,10 +25,6 @@ namespace PsyWagonLestes
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    //electron
-                    webBuilder.UseElectron(args);
-                    webBuilder.UseEnvironment("Development");
-                    //def
                     webBuilder.UseStartup<Startup>();
                 });
     }

@@ -1,11 +1,14 @@
-﻿using ElectronNET.API;
-using ElectronNET.API.Entities;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using PsyWagonLestes.Data;
 
 namespace PsyWagonLestes
@@ -53,39 +56,6 @@ namespace PsyWagonLestes
             {
                 endpoints.MapRazorPages();
             });
-
-            if (HybridSupport.IsElectronActive)
-            {
-                CreateWindow();
-            }
-        }
-
-        private async void CreateWindow()
-        {
-            //electron
-            //Task.Run(async () => await Electron.WindowManager.CreateWindowAsync());
-            //var window = await  Electron.WindowManager.CreateWindowAsync();
-
-            //FullScreen
-            var browserWindow = await Electron.WindowManager.CreateWindowAsync(new BrowserWindowOptions
-            {
-                Width = 1152,
-                Height = 940,
-                Show = false
-            });
-            await browserWindow.WebContents.Session.ClearCacheAsync();
-            browserWindow.OnReadyToShow += () =>
-            {
-                browserWindow.Show();
-                browserWindow.Maximize();
-            };
-            //отключение меню
-            Electron.Menu.SetApplicationMenu(new MenuItem[] { });
-            //обработчик закрытия
-            browserWindow.OnClosed += () =>
-            {
-                Electron.App.Quit();
-            };
         }
     }
 }
