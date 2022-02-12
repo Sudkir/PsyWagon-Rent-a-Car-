@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\PsyWagon-Hiden\\PsyWagonLestes.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\PsyWagon\\PsyWagonLestes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\PsyWagon-Hiden\\PsyWagonLestes.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\PsyWagon\\PsyWagonLestes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\PsyWagon-Hiden\\PsyWagonLestes.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\PsyWagon\\PsyWagonLestes.csproj",
         "projectName": "PsyWagonLestes",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\PsyWagon-Hiden\\PsyWagonLestes.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\PsyWagon\\PsyWagonLestes.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\PsyWagon-Hiden\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\PsyWagon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -80,20 +80,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[5.0.14, 5.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[5.0.14, 5.0.14]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[5.0.14, 5.0.14]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -103,11 +89,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
         }
       }
     }

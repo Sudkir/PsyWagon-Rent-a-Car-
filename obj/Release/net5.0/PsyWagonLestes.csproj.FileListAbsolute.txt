@@ -356,3 +356,14 @@ C:\Users\Admin\Desktop\PsyWagon-Hiden\obj\Release\net5.0\ref\PsyWagonLestes.dll
 C:\Users\Admin\Desktop\PsyWagon-Hiden\obj\Release\net5.0\PsyWagonLestes.pdb
 C:\Users\Admin\Desktop\PsyWagon-Hiden\obj\Release\net5.0\PsyWagonLestes.genruntimeconfig.cache
 C:\Users\Admin\Desktop\PsyWagon-Hiden\bin\Release\net5.0\electron.manifest.json
+C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Release\net5.0\PsyWagonLestes.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Release\net5.0\PsyWagonLestes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Release\net5.0\PsyWagonLestes.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Release\net5.0\PsyWagonLestes.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Release\net5.0\PsyWagonLestes.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Release\net5.0\PsyWagonLestes.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Release\net5.0\PsyWagonLestes.RazorAssemblyInfo.cache
+C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Release\net5.0\PsyWagonLestes.RazorAssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Release\net5.0\PsyWagonLestes.dll
+C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Release\net5.0\ref\PsyWagonLestes.dll
+C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Release\net5.0\PsyWagonLestes.pdb
