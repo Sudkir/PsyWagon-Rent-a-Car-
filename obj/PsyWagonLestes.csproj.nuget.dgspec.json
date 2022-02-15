@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\проекты\\PsyWagon-main\\PsyWagonLestes.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\PsyWagon\\PsyWagonLestes.csproj": {}
   },
   "projects": {
-    "E:\\проекты\\PsyWagon-main\\PsyWagonLestes.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\PsyWagon\\PsyWagonLestes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\проекты\\PsyWagon-main\\PsyWagonLestes.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\PsyWagon\\PsyWagonLestes.csproj",
         "projectName": "PsyWagonLestes",
-        "projectPath": "E:\\проекты\\PsyWagon-main\\PsyWagonLestes.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\PsyWagon\\PsyWagonLestes.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\проекты\\PsyWagon-main\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\PsyWagon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -51,10 +51,6 @@
               "target": "Package",
               "version": "[6.4.4, )"
             },
-            "Microsoft.AspNetCore.NodeServices": {
-              "target": "Package",
-              "version": "[3.1.22, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.13, )"
@@ -72,10 +68,6 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[5.0.2, )"
-            },
-            "Node.js": {
-              "target": "Package",
-              "version": "[5.3.0, )"
             }
           },
           "imports": [

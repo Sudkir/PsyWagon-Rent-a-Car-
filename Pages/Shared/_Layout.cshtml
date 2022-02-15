@@ -25,12 +25,26 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Cars/Index">Машины</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Условия использования</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Cars/ShowCars">Аренда</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Cars/Index">Расходники</a>
+                        </li>
+                      
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Contact">Контакты</a>
+                        </li>
+                        
+                      
                         
                     </ul>
                 </div>
+               
+
             </div>
+             <div>
+                    @await Html.PartialAsync("_LoginPartial")
+                </div>
         </nav>
     </header>
     <div class="container">

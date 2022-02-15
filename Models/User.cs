@@ -7,6 +7,8 @@ namespace RazorPagesMovie.Models
 {
     public class User
     {
+        public int ID { get; set; }
+
         [Required(ErrorMessage = "Не указан логин")] //ответ с ошибкой о неуказании
         public string Login { get; set; }
 
