@@ -10,7 +10,7 @@ using PsyWagonLestes.Data;
 namespace PsyWagonLestes.Migrations
 {
     [DbContext(typeof(PsyWagonLestesContext))]
-    [Migration("20220215175736_m1")]
+    [Migration("20220215183009_m1")]
     partial class m1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -67,30 +67,6 @@ namespace PsyWagonLestes.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Car");
-                });
-
-            modelBuilder.Entity("RazorPagesMovie.Models.Movie", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Genre")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<DateTime>("ReleaseDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Title")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("ID");
-
-                    b.ToTable("Movie");
                 });
 
             modelBuilder.Entity("RazorPagesMovie.Models.User", b =>

@@ -667,11 +667,6 @@ C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Debug\net5.0\Razor\Pages\Contact.cs
 C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
 C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
 C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Debug\net5.0\Razor\Pages\Index2.cshtml.g.cs
-C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Debug\net5.0\Razor\Pages\Movies\Create.cshtml.g.cs
-C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Debug\net5.0\Razor\Pages\Movies\Delete.cshtml.g.cs
-C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Debug\net5.0\Razor\Pages\Movies\Details.cshtml.g.cs
-C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Debug\net5.0\Razor\Pages\Movies\Edit.cshtml.g.cs
-C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Debug\net5.0\Razor\Pages\Movies\Index.cshtml.g.cs
 C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\Admin\Documents\GitHub\PsyWagon\obj\Debug\net5.0\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs

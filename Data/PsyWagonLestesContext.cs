@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using RazorPagesItems.Models;
 
 namespace PsyWagonLestes.Data
 {
@@ -13,7 +12,6 @@ namespace PsyWagonLestes.Data
         //Подключение моделей
 
         public DbSet<RazorPagesMovie.Models.User> User { get; set; }
-        public DbSet<RazorPagesMovie.Models.Movie> Movie { get; set; }
 
         public DbSet<RazorPagesMovie.Models.Car> Car { get; set; }
 

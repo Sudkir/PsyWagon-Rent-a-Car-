@@ -40,22 +40,6 @@ namespace PsyWagonLestes.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Movie",
-                columns: table => new
-                {
-                    ID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Title = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ReleaseDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Genre = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Movie", x => x.ID);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "User",
                 columns: table => new
                 {
@@ -79,9 +63,6 @@ namespace PsyWagonLestes.Migrations
 
             migrationBuilder.DropTable(
                 name: "Item");
-
-            migrationBuilder.DropTable(
-                name: "Movie");
 
             migrationBuilder.DropTable(
                 name: "User");

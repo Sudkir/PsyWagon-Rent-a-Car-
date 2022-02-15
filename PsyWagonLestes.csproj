@@ -13,7 +13,6 @@
   <ItemGroup>
     <None Include="PsyWagonLestes.sln" />
     <None Include="wwwroot\css\CarIndex.css" />
-    <None Include="wwwroot\fonts\icomoon\demo-files\demo.html" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="ElectronNET.API" Version="13.5.1" />
@@ -28,6 +27,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="Migrations\" />
     <Folder Include="wwwroot\fonts\MontserratAlternates\" />
   </ItemGroup>
   <ItemGroup>

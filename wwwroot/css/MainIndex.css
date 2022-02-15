@@ -10,13 +10,13 @@ body {
     color: #080515;
     font-family: "Montserrat Alternates", sans-serif;
 }
+
 .post-wrap {
     max-width: 1120px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-   
 }
 
 .post-item {
@@ -60,7 +60,6 @@ body {
     .item-icon.acess:before {
         content: "\f07a";
     }
-
 
     .item-icon.wheel:before {
         content: "\f10c";

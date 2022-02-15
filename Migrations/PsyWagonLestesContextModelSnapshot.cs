@@ -67,30 +67,6 @@ namespace PsyWagonLestes.Migrations
                     b.ToTable("Car");
                 });
 
-            modelBuilder.Entity("RazorPagesMovie.Models.Movie", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Genre")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<DateTime>("ReleaseDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Title")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("ID");
-
-                    b.ToTable("Movie");
-                });
-
             modelBuilder.Entity("RazorPagesMovie.Models.User", b =>
                 {
                     b.Property<int>("ID")

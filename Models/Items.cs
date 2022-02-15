@@ -1,7 +1,4 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-
-namespace RazorPagesItems.Models
+﻿namespace RazorPagesItems.Models
 {
     public class Item
     {
@@ -10,7 +7,7 @@ namespace RazorPagesItems.Models
 
         public string Brand { get; set; }
 
-       public int Count { get; set; }
+        public int Count { get; set; }
 
         public decimal Price { get; set; }
     }
