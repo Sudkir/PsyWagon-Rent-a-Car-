@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using RazorPagesItems.Models;
 
 namespace PsyWagonLestes.Data
 {
@@ -15,6 +16,8 @@ namespace PsyWagonLestes.Data
         public DbSet<RazorPagesMovie.Models.Movie> Movie { get; set; }
 
         public DbSet<RazorPagesMovie.Models.Car> Car { get; set; }
+
+        public DbSet<RazorPagesItems.Models.Item> Item { get; set; }
 
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
         //{

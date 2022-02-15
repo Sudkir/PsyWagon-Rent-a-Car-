@@ -1,18 +1,22 @@
-﻿* {
+﻿@import url(../fonts/MontserratAlternates/MontserratAlternates-Black.ttf);
+
+* {
     margin: 0;
     box-sizing: border-box;
 }
-
+/*'Montserrat Alternates'*/
 body {
-    font-family: 'Montserrat Alternates', sans-serif;
+    background: #6c6c6ba3;
+    color: #080515;
+    font-family: "Montserrat Alternates", sans-serif;
 }
-
 .post-wrap {
     max-width: 1120px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+   
 }
 
 .post-item {
@@ -25,7 +29,7 @@ body {
     }
 
 .item-content {
-    background: #413D4C;
+    background: #2d2d30;
     padding: 40px;
 }
 
@@ -36,33 +40,34 @@ body {
     .item-icon:before {
         content: "";
         font-family: FontAwesome;
-        color: #F09EA3;
+        color: #fffa00;
         font-size: 50px;
         line-height: 1;
     }
 
-    .item-icon.photo:before {
-        content: "\f030";
+    .item-icon.car:before {
+        content: "\f1b9";
     }
 
-    .item-icon.video:before {
-        content: "\f03d";
+    .item-icon.rent:before {
+        content: "\f0d6";
     }
 
-    .item-icon.gift:before {
-        content: "\f06b";
+    .item-icon.items:before {
+        content: "\f00a";
     }
 
-    .item-icon.group:before {
-        content: "\f0c0";
+    .item-icon.acess:before {
+        content: "\f07a";
     }
 
-    .item-icon.tree:before {
-        content: "\f1bb";
+
+    .item-icon.wheel:before {
+        content: "\f10c";
     }
 
-    .item-icon.anchor:before {
-        content: "\f13d";
+    .item-icon.mail:before {
+        content: "\f0e0";
     }
 
 .post-item:hover .item-icon, .post-item:hover .item-body h3, .post-item:hover .item-body p {
@@ -70,7 +75,7 @@ body {
 }
 
 .item-body {
-    color: #F5E2CD;
+    color: #808080;
     font-size: 14px;
 }
 
@@ -97,7 +102,7 @@ body {
     font-size: 12px;
     text-transform: uppercase;
     font-weight: 600;
-    color: #F5E2CD;
+    color: #fffa00;
 }
 
     .link:before {
@@ -109,7 +114,7 @@ body {
         bottom: 0;
         height: .125rem;
         margin: auto;
-        background: #F09EA3;
+        background: #fffa00;
         transform: scaleX(.2);
         transform-origin: left center;
         z-index: 0;

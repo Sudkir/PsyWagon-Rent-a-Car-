@@ -525,7 +525,7 @@
 }
 
 .icon-shopping-cart:before {
-    content: "\f07a";
+    content: "      ";
 }
 
 .icon-folder:before {
@@ -1841,7 +1841,7 @@
 }
 
 .icon-car:before {
-    content: "\f1b9";
+    content: "\f2da";
 }
 
 .icon-cab:before {

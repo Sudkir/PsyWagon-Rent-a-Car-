@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Pages",
+    "\\Pages\\Cars",
+    "\\wwwroot",
+    "\\wwwroot\\css"
   ],
   "SelectedNode": "\\PsyWagonLestes.sln",
   "PreviewInSolutionExplorer": false

@@ -13,11 +13,12 @@
   <ItemGroup>
     <None Include="PsyWagonLestes.sln" />
     <None Include="wwwroot\css\CarIndex.css" />
+    <None Include="wwwroot\fonts\icomoon\demo-files\demo.html" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="ElectronNET.API" Version="13.5.1" />
     <PackageReference Include="EntityFramework" Version="6.4.4" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.14" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.12">
       <PrivateAssets>all</PrivateAssets>
@@ -27,6 +28,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="wwwroot\fonts\MontserratAlternates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Update="electron.manifest.json">
